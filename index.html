@@ -36,38 +36,38 @@
         .jumbotroncontent {
             display:table-cell;
             vertical-align:middle;
-            color: #555;
+            color: #777;
         }
         h2 {
             font-size:63px;
         }
     </style>
-    <body>
+    <body id=body>
         <div class="jumbotron" style="background-image: url('tuneviolin.jpg');">
             <div class="jumbotroncontent">
                 <h1>Portfolio // Terry Kimura</h1>
                 <p>This is a class project for the '15 TechAcademy Bootcamp.  It will showcase Terry's class projects with no regard to how embarassing or novice-like they turn out.</p>
             </div>
         </div>
-        <div class="jumbotron" style="background-image: url('moon.jpg');">
+        <div class="jumbotron" id="project1" style="background-image: url('moon.jpg');">
             <div class="jumbotroncontent">
                 <h2>Project 1</h2>
                 <p>Lorem ipsum dolor sit amet, consectetuer adipiscing elit, sed diam nonummy nibh euismod tincidunt ut laoreet dolore magna aliquam erat volutpat. Ut wisi enim ad minim veniam, quis nostrud exerci tation ullamcorper suscipit lobortis nisl ut aliquip ex ea commodo consequat.</p>
             </div>
         </div>
-        <div class="jumbotron" style="background-image: url('nobeyama.jpg');">
+        <div class="jumbotron" id="project2"style="background-image: url('nobeyama.jpg');">
             <div class="jumbotroncontent">
                 <h2>Project 2</h2>
                 <p>Lorem ipsum dolor sit amet, consectetuer adipiscing elit, sed diam nonummy nibh euismod tincidunt ut laoreet dolore magna aliquam erat volutpat. Ut wisi enim ad minim veniam, quis nostrud exerci tation ullamcorper suscipit lobortis nisl ut aliquip ex ea commodo consequat.</p>
             </div>
         </div>
-        <div class="jumbotron" style="background-image: url('violinchair.jpg');">
+        <div class="jumbotron" id="project3" style="background-image: url('violinchair.jpg');">
             <div class="jumbotroncontent">
                 <h2>Project 3</h2>
                 <p>Project 3</p>
             </div>
         </div>
-        <div class="jumbotron">
+        <div class="jumbotron" id="project4" style="background-image: url('nightsakura.jpg');">
             <div class="jumbotroncontent">
                 <h2>Project 4</h2>
                 <p>Project 4</p>
@@ -82,16 +82,16 @@
                         <span class="icon-bar"></span>
                         <span class="icon-bar"></span>
                     </button>
-                    <a class="navbar-brand" href="#">Terry Kimura</a>
+                    <a class="navbar-brand" href="#body">Terry Kimura</a>
                 </div>
                 
                 <!-- Collect the nav links, forms, and other content for toggling.  Wtf is toggling? -->
                 <div class="collapse navbar-collapse" id="menu">
                     <ul class="nav navbar-nav navbar-right">
-                        <li><a href="#">Project 1</a></li>
-                        <li><a href="#">Project 2</a></li>
-                        <li><a href="#">Project 3</a></li>
-                        <li><a href="#">Project 4</a></li>
+                        <li><a href="#project1">Project 1</a></li>
+                        <li><a href="#project2">Project 2</a></li>
+                        <li><a href="#project3">Project 3</a></li>
+                        <li><a href="#project4">Project 4</a></li>
                     </ul>
                 </div>
             </div>
